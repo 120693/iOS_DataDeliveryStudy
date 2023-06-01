@@ -17,6 +17,8 @@
 		9260FE8E2A28487F00C96F24 /* DataDeliverStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9260FE8D2A28487F00C96F24 /* DataDeliverStudyTests.swift */; };
 		9260FE982A28487F00C96F24 /* DataDeliverStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9260FE972A28487F00C96F24 /* DataDeliverStudyUITests.swift */; };
 		9260FE9A2A28487F00C96F24 /* DataDeliverStudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9260FE992A28487F00C96F24 /* DataDeliverStudyUITestsLaunchTests.swift */; };
+		9260FEA72A284A4E00C96F24 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9260FEA62A284A4E00C96F24 /* ResultViewController.swift */; };
+		92BA5C0F2A28733E0085540C /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BA5C0E2A28733E0085540C /* WeatherModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		9260FE932A28487F00C96F24 /* DataDeliverStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataDeliverStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9260FE972A28487F00C96F24 /* DataDeliverStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDeliverStudyUITests.swift; sourceTree = "<group>"; };
 		9260FE992A28487F00C96F24 /* DataDeliverStudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDeliverStudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9260FEA62A284A4E00C96F24 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		92BA5C0E2A28733E0085540C /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				9260FE732A28487D00C96F24 /* AppDelegate.swift */,
 				9260FE752A28487D00C96F24 /* SceneDelegate.swift */,
 				9260FE772A28487D00C96F24 /* ViewController.swift */,
+				9260FEA62A284A4E00C96F24 /* ResultViewController.swift */,
+				92BA5C0E2A28733E0085540C /* WeatherModel.swift */,
 				9260FE792A28487D00C96F24 /* Main.storyboard */,
 				9260FE7F2A28487E00C96F24 /* Assets.xcassets */,
 				9260FE812A28487E00C96F24 /* LaunchScreen.storyboard */,
@@ -261,9 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9260FEA72A284A4E00C96F24 /* ResultViewController.swift in Sources */,
 				9260FE782A28487D00C96F24 /* ViewController.swift in Sources */,
 				9260FE742A28487D00C96F24 /* AppDelegate.swift in Sources */,
 				9260FE762A28487D00C96F24 /* SceneDelegate.swift in Sources */,
+				92BA5C0F2A28733E0085540C /* WeatherModel.swift in Sources */,
 				9260FE7E2A28487D00C96F24 /* DataDeliverStudy.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
